@@ -15,15 +15,17 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://ricoputrap.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'ricoputrap', // Usually your GitHub org/user name.
+  projectName: 'ricoputrap.github.io', // Usually your repo name.
+  deploymentBranch: 'deployment', // The branch that GitHub pages will deploy from.
+  trailingSlash: false, // Set to true if you want to add a trailing slash to all URLs.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
